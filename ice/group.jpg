@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/group.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Cravings</title>
+</head>
+<body style="background-image: url(img/grbg.jpg);">
+    <div class="pro">Project by</div>
+    <div class="gid">
+        <div class="box1"><div class="container">
+            <img src="img/gr1.jpeg" alt="GangLeader" class="image">
+            <div class="overlay">
+              <div class="text">Gayatri Mehra</div>
+            </div>
+        </div></div>
+        <div class="box2"><div class="container">
+            <img src="img/gr2.jpeg" alt="Member1" class="image">
+            <div class="overlay">
+              <div class="text">Sahil More</div>
+            </div>
+        </div></div>
+        <div class="box3"><div class="container">
+            <img src="img/gr3.jpeg" alt="Member2" class="image">
+            <div class="overlay">
+              <div class="text">Hardik Kolge</div>
+            </div>
+        </div></div>
+        <div class="box4"><div class="container">
+            <img src="img/gr4.jpeg" alt="Member3" class="image">
+            <div class="overlay">
+              <div class="text">Zahid Narvekar</div>
+            </div>
+        </div></div>
+        <div class="box5"><div class="container">
+            <img src="img/gr5.jpeg" alt="Member4" class="image">
+            <div class="overlay">
+              <div class="text">Priyesh Pardhi</div>
+            </div>
+        </div></div>
+        <div class="box6"><div class="container">
+            <img src="img/gr6.jpeg" alt="Member5" class="image">
+            <div class="overlay">
+              <div class="text">Arman Bandewar</div>
+            </div>
+        </div></div>
+        <div class="box7"><div class="container">
+            <img src="img/gr7.jpeg" alt="Member6" class="image">
+            <div class="overlay">
+              <div class="text">Bhavesh Nigade</div>
+            </div>
+        </div></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+INSERT IGNORE INTO product (product_id,product_name,product_qty)
+SELECT sundaes.sundaes_id,sundaes.sundaes_name,sundaes.product_id
+FROM sundaes;
+
+UPDATE product
+LEFT JOIN sundaes ON product.product_id=sundaes.product_id
+SET product.product_qty = CASE WHEN sundaes.product_id IS NULL 
+                               THEN 0 
+                               ELSE product.product_qty=product.product_qty+1 
+                          END;
